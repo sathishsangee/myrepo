@@ -1,6 +1,11 @@
 version: 0.0
 OS: linux
 files: 
-    - source: /FirstApp.sh
-      destination: /var/www/html/index.html/index
+    - source: /index.html
+      destination: /var/www/html/
+hooks:
+    BeforeInstall:
+        - location: ./FirstApp.sh
+        
+        
       
