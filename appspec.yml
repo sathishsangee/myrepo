@@ -1,11 +1,14 @@
 version: 0.0
-OS: linux
-files: 
-    - source: /index.html
-      destination: /var/www/html/
+os: linux
+files:
+  - source: index.html
+    destination: /var/www/html/
 hooks:
-    BeforeInstall:
-        - location: ./FirstApp.sh
+  BeforeInstall:
+    - location: TestCodeDeploy/FirstApp.sh
+    
+ 
+
         
         
       
