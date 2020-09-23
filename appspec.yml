@@ -1,6 +1,6 @@
 version: 0.0
 OS: linux
 files: 
-    - source: /index.html
-      destination: /var/www/html/
+    - source: /FirstApp.sh
+      destination: /var/www/html/index.html/index
       
