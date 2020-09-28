@@ -1,6 +1,7 @@
 #!/bin/bash
 yum install httpd -y
-echo '<h1>HELLO WORLD</h1>' > /var/www/html/index.html
-chkconfig httpd on
+echo '<html><h1>HELLO WORLD</h1></html>' > /var/www/html/index.html
 service httpd start
+chkconfig httpd on
+
 
